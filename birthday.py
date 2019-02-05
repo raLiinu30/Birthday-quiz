@@ -1,6 +1,6 @@
 """
 birthday.py
-Author: <your name here>
+Author: Rain 
 Credit: <list sources used, if any>
 Assignment:
 
@@ -31,3 +31,35 @@ Example Session
   And the day? 11
   Eric, you are a fall baby of the stone age.
 """
+name = input('Hello, what is your name? ')
+month = input('What is the name of the month were you were born in? ')
+year = int(input('What year were you born in? '))
+day = int(input('What day were you born in? '))
+
+winter = ['December', 'January', 'February']
+spring = ['March', 'April', 'May']
+summer = ['June', 'July','August']
+fall = ['September', 'October', 'November' ]
+
+if month == 10 and day == 31:
+    print('You were born on Halloween!')
+elif month == 2 and day == 5:
+    print('Happy birthday!')
+elif month in winter:
+    print('lol')
+elif month in spring:
+    
+elif month in summer:
+    
+elif month in fall:
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
