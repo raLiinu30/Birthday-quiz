@@ -41,17 +41,19 @@ spring = ['March', 'April', 'May']
 summer = ['June', 'July','August']
 fall = ['September', 'October', 'November' ]
 
+
 if month == 10 and day == 31:
     print('You were born on Halloween!')
 elif month == 2 and day == 5:
     print('Happy birthday!')
 elif month in winter:
-    print('lol')
+    print(name+', you are a winter baby.')
 elif month in spring:
-    
+     print(name+', you are a spring baby.')
 elif month in summer:
-    
+     print(name+', you are a summer baby.')
 elif month in fall:
+     print(name+', you are a fall baby.')
     
     
     
