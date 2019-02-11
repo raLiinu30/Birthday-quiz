@@ -32,16 +32,16 @@ Example Session
   Eric, you are a fall baby of the stone age.
 """
 name = input('Hello, what is your name? ')
-month = input('What is the name of the month were you were born in? ')
-year = int(input('What year were you born in? '))
-day = int(input('What day were you born in? '))
+month = input('Hi '+name+', what was the name of the month you were born in? ')
+year = int(input('And what year were you born in, '+name+'? '))
+day = int(input('And the day? '))
 
 winter = ['December', 'January', 'February']
 spring = ['March', 'April', 'May']
 summer = ['June', 'July','August']
 fall = ['September', 'October', 'November' ]
 eighties = range(1980, 1990)
-nineties = (1990, 2000)
+nineties = range(1990, 2000)
 
 
 if month == 10 and day == 31:
