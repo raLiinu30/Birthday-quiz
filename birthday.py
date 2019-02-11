@@ -44,10 +44,10 @@ eighties = range(1980, 1990)
 nineties = range(1990, 2000)
 
 
-if month == 10 and day == 31:
-    print('You were born on Halloween!')
-elif month == 2 and day == 5:
+if month == 2 and day == 11:
     print('Happy birthday!')
+elif month == 'October' and day == 31:
+    print('You were born on Halloween!')
 elif month in winter and year in eighties:
     print(name+', you are a winter baby of the eighties.')
 elif month in spring and year in eighties:
