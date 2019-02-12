@@ -31,7 +31,7 @@ Example Session
   And the day? 11
   Eric, you are a fall baby of the stone age.
 """
-#
+
 name = input('Hello, what is your name? ')
 month = input('Hi '+name+', what was the name of the month you were born in? ').lower()
 year = int(input('And what year were you born in, '+name+'? '))
@@ -43,7 +43,6 @@ summer = ['june', 'july','august']
 fall = ['september', 'october', 'november' ]
 eighties = range(1980, 1990)
 nineties = range(1990, 2000)
-
 
 if month == 2 and day == 11:
     print('Happy birthday!')
