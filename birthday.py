@@ -53,36 +53,36 @@ if month == bmonth.lower() and day == todaydate:
     print('Happy birthday!')
 if month == 'october' and day == 31:
     print('You were born on Halloween!')
-if month in winter and year in eighties:
+elif month in winter and year in eighties:
     print(name+', you are a winter baby of the eighties.')
-if month in spring and year in eighties:
+elif month in spring and year in eighties:
      print(name+', you are a spring baby of the eighties.')
-if month in summer and year in eighties:
+elif month in summer and year in eighties:
      print(name+', you are a summer baby of the eighties.')
-if month in fall and year in eighties:
+elif month in fall and year in eighties:
      print(name+', you are a fall baby of the eighties.')
-if month in winter and year in nineties:
+elif month in winter and year in nineties:
     print(name+', you are a winter baby of the nineties.')
-if month in spring and year in nineties:
+elif month in spring and year in nineties:
      print(name+', you are a spring baby of the nineties.')
-if month in summer and year in nineties:
+elif month in summer and year in nineties:
      print(name+', you are a summer baby of the nineties.')
-if month in fall and year in nineties:
+elif month in fall and year in nineties:
      print(name+', you are a fall baby of the nineties.')
-if month in winter and year > 2000:
+elif month in winter and year > 2000:
     print(name+', you are a winter baby of the two thousands.')
-if month in spring and year > 2000:
+elif month in spring and year > 2000:
      print(name+', you are a spring baby of the two thousands.')
-if month in summer and year > 2000:
+elif month in summer and year > 2000:
      print(name+', you are a summer baby of the two thousands.')
-if month in fall and year > 2000:
+elif month in fall and year > 2000:
      print(name+', you are a fall baby of the two thousands.')
-if month in winter and year < 1980:
+elif month in winter and year < 1980:
     print(name+', you are a winter baby of the Stone Age.')
-if month in spring and year < 1980:
+elif month in spring and year < 1980:
      print(name+', you are a spring baby of the Stone Age.')
-if month in summer and year < 1980:
+elif month in summer and year < 1980:
      print(name+', you are a summer baby of the Stone Age.')
-if month in fall and year < 1980:
+elif month in fall and year < 1980:
          print(name+', you are a fall baby of the Stone Age.')
     
