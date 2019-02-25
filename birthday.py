@@ -1,7 +1,7 @@
 """
 birthday.py
 Author: Rain 
-Credit: Mr. Dennison
+Credit: Mr. Dennison, Mr. Healy
 Assignment:
 
 Your program will ask the user the following questions, in this order:
@@ -31,6 +31,10 @@ Example Session
   And the day? 11
   Eric, you are a fall baby of the stone age.
 """
+from datetime import datetime
+from calendar import month_name
+todaymonth = datetime.today().month
+todaydate = datetime.today().day
 
 name = input('Hello, what is your name? ')
 month = input('Hi '+name+', what was the name of the month you were born in? ').lower()
@@ -43,8 +47,9 @@ summer = ['june', 'july','august']
 fall = ['september', 'october', 'november' ]
 eighties = range(1980, 1990)
 nineties = range(1990, 2000)
+bmonth = month_name[todaymonth]
 
-if month == 2 and day == 11:
+if month == bmonth.lower() and day == todaydate:
     print('Happy birthday!')
 if month == 'october' and day == 31:
     print('You were born on Halloween!')
@@ -79,5 +84,5 @@ if month in spring and year < 1980:
 if month in summer and year < 1980:
      print(name+', you are a summer baby of the Stone Age.')
 if month in fall and year < 1980:
-     print(name+', you are a fall baby of the Stone Age.')
+         print(name+', you are a fall baby of the Stone Age.')
     
