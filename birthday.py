@@ -47,11 +47,11 @@ summer = ['june', 'july','august']
 fall = ['september', 'october', 'november' ]
 eighties = range(1980, 1990)
 nineties = range(1990, 2000)
-bmonth = month_name[todaymonth]
+bmonth = month_name[todaymonth].lower()
 
-if month == bmonth.lower() and day == todaydate:
+if month == bmonth and day == todaydate:
     print('Happy birthday!')
-if month == 'october' and day == 31:
+elif month == 'october' and day == 31:
     print('You were born on Halloween!')
 elif month in winter and year in eighties:
     print(name+', you are a winter baby of the eighties.')
